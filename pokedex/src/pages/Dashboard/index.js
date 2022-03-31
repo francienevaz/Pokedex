@@ -1,7 +1,9 @@
+import Text from '../../components/Text';
+
 function Dashboard() {
     return (
         <div>
-            Dashboard
+            <Text as="h2">Dashboard</Text>
         </div>
     );
 }
