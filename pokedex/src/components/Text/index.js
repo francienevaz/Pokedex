@@ -3,14 +3,14 @@ import React from 'react';
 import * as S from './styles';
 
 function Text({
-    children,
-    as,
+  children,
+  as,
 }) {
-    return (
-        <S.Title as={as}>
-          {children}
-        </S.Title>
-    );
+  return (
+    <S.Title as={as}>
+      {children}
+    </S.Title>
+  );
 }
 
 export default Text;
